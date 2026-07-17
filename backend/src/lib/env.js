@@ -4,6 +4,7 @@ dotenv.config({ quiet: true });
 console.log("Loaded STREAM_API_KEY:", process.env.STREAM_API_KEY);
 console.log("Loaded STREAM_API_SECRET exists:", !!process.env.STREAM_API_SECRET);
 console.log("Loaded DB_URL exists:", !!process.env.DB_URL);
+console.log("=== DEPLOYMENT TEST ===");
 export const ENV = {
   PORT: process.env.PORT,
   DB_URL: process.env.DB_URL,
